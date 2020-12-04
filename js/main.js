@@ -38,7 +38,6 @@ for (let i = 0; i < expenses.length; i++) {
 /************************ DAY 2 *****************************/
 // pull in ../assets/passwords.json and analyze each for correctness
 $.ajax("/advent-of-code/assets/passwords.json").done(function(data, status, jqXhr) {
-    alert("Pulled in values from passwords.json");
     console.log("Request status: " + status);
     let totalPw = 0;
     let totalCorrect = 0;
@@ -84,5 +83,77 @@ $.ajax("/advent-of-code/assets/passwords.json").done(function(data, status, jqXh
         console.error(error);
     })
     .always(function() {
-        console.log("Finished processing");
+        console.log("Finished processing passwords");
     });
+
+/************************ DAY 3 *****************************/
+$.ajax("/advent-of-code/assets/trees.json")
+    .done(function(data, status, jqXhr) {
+
+        // if we go at a slope of -1/3, how many trees(#) will we hit?
+        let offset = 0;
+
+        let numTreesHit = 0;
+
+        // *******************  PART 2  ***************** //
+        // Also for slopes of: -1, -1/3, -1/5, -1/7, -2
+        let numTreesHit2 = 0;
+        let numTreesHit3 = 0;
+        let numTreesHit4 = 0;
+        let numTreesHit5 = 0;
+        let offset2 = 0;
+        let offset3 = 0;
+        let offset4 = 0;
+        let offset5 = 0;
+        data.forEach(function(line, index, fullArr) {
+            // Now we're looking at a single row of trees
+            let thisRow = line.treeRow.split(''); let hit = "no";
+            offset = checkOffset(offset);
+            offset2 = checkOffset(offset2);
+            offset3 = checkOffset(offset3);
+            offset4 = checkOffset(offset4);
+            offset5 = index % 2 === 0 ? checkOffset(offset5) : offset5;
+
+            numTreesHit += avoidTrees(thisRow, offset);
+            numTreesHit2 += avoidTrees(thisRow, offset2);
+            numTreesHit3 += avoidTrees(thisRow, offset3);
+            numTreesHit4 += avoidTrees(thisRow, offset4);
+            numTreesHit5 += index % 2 === 0 ? avoidTrees(thisRow, offset5) : 0;
+            offset += 3;
+            offset2 += 1;
+            offset3 += 5;
+            offset4 += 7;
+            offset5 += index % 2 === 0 ? 1 : 0;
+
+        });
+        console.log("Trees hit at Offset 1: " + numTreesHit);
+        console.log("Trees hit at Offset 2: " + numTreesHit2);
+        console.log("Trees hit at Offset 3: " + numTreesHit3);
+        console.log("Trees hit at Offset 4: " + numTreesHit4);
+        console.log("Trees hit at Offset 5: " + numTreesHit5);
+        console.log("All trees multiplied together: " + numTreesHit * numTreesHit2 * numTreesHit3 * numTreesHit4 * numTreesHit5);
+
+    })
+    .fail(function(jqXhr, status, error) {
+        console.log("There was an error: ");
+        console.error(error);
+    })
+    .always(function() {
+        console.log("Finished processing trees");
+    });
+
+function avoidTrees(row, offset) {
+    // returns either 1 or 0 if it hit a tree or not
+    if (row[offset] === '#') {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+function checkOffset(offset) {
+    if(offset > 30) {
+        // the pattern repeats, so break it down to quotient/remainder
+        return offset - 31;
+    }
+    return offset;
+}
