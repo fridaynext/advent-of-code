@@ -218,5 +218,52 @@ $.ajax("/advent-of-code/assets/passports.json")
     });
 
 /************************ DAY 5 *****************************/
-// BEGIN KEYBASE SALTPACK ENCRYPTED MESSAGE. kiOUtMhcc4NXXRb XMxIeCbf5rFZD7q v7pjkOkifoOLiaC jvc8d2J8FCVgTtt bnS0s62RvBXIjTy 8uD583atDTPThSB LRPvfbWB0U4770K 1GantgeFN7ZjzIg 1dehNVE93uba5ue wEU19fRNRvOT3TG yUeCdJwLJzPZtxg uWE8T1Z5uE9nDoX p1150xqLhW4fH7B gmvHaLYJxGGqFvl yxrVYMJPxbQK8CK xR1cf1Ty0PFhdsc K36nD0mmFsut2dH ku4BCerYpTrInba XX5ueJ7Xp5LV77T XFxRaNViUlAzZMZ cUP9Fk8PS0w8RIF nFd8iNkFIVx2eG6 Ecp4cL0zFkQxgCH tq6v1NilS6pqMqM oOLpeWZXY5L5bM5 qSH5ebxCXivactz LKBqFav4tN19ah5 MBONQOMmwEntdwR yEP6SHzlQm3L5Zj FcoOaU6unE0wHj0 7EFyhK26E0t3GnD 8qzejGbcWw1rSqO JJj4Bl7iSRTa61X OpV0EveGjoq3sRd kGuXy3hZe6QoOD2 KGZQBpHLJPS7kxf 7GfepxxuBUPbSxK 99VQQvoYcFtIiyI TUXFLADzuV4Pt0v bhj9trZfhUxXC9r ZliZ7zaJ8xGAE0K xXOUpXkXoX4r5kE m2DcsrePzpRl3HG uf61Bv9j0DxmI5D jrojf5lFHVYXJeA rNnRZ2je16rYeAp sK9qZQwkCBwEkoj CTMKoU0DP9rWmgE RYRbNdJT3FafQmV T9uioZAXHBVei6O PwfaazSeLgQMoXc DTmclLcHOfi541a lGw3de1XcZevVAI yAuJ06jPl3rVuv5 likc6MJMTQCkXNB AhA3ZHAv4jYJQYi 190VYdXsO3DcUqR YgHOvmJ1OxAaFzG UKSciVLomL3DvKJ N1QObhyBSQgNXm1 UNEAShwG4QHEJyS ogQJOmIpUbmm3RJ Rj5IKNgEKxMhqwo VvPekONQWnajjaZ cydPsYJ57C7CY5q l459nob6lKZt370 MXG6B0GiizSO8yw WQ1t0KmTM4ftlvt 0xauVFAFQzhMtxv Egmrx6eOBjDG8et a7Txa6wnsvldZDO 1viDgPjaqWlspRy QRhECnJ7yZVFkgG 5Ka9vLRtRVsym32 60KVyU4Og2xrUGF aVMXTxLUZ4vcS8O Vi50QQsF1C4W00j jr2ZLUEUCRPoaXE VesGbWAhT0xlIJr wDNYkgIHAdpwVhC CtYbqlfNj1dK5mi NAT4uw7ovDuVE8L NvCwohm6jxlktmu dsAK8gwxC3rA3KO 9HaZ1sheI9Xkw8v Sm5RLCYzPhTzWah nr6SABQ4HKkgTTI hdyeLRJP6BswuvW YSmEdhYDp5aMGHB zgleUd8oMQLPxEh f8yzTHNHWcSO4g0 4m8J1H5EMjfrT35 6uRthd6EZbq49Jh vzryn8O8zejM3Pq aKm3sIIJJb0RIwN sR8JzkdbahQZGWK TczBT1L0qAVGCUz P7OhaLMF33alukL SJYjELCVDvZpyLb y94g7XKJGdjqLyh uic38s2l26p7T2Q qbKGdMOzTQ8AN0j Ca3aawjt3W8znYf TMY7WMET6BG8LBL 2RCPWecB8YifqdF dqjvJ8u13ASTvru EItkUwvvD6EklqG 6DJuaiKUOO7eaxy P64A0V0KWUtm7S0 6xlI9C4BYOqC7WP qE9AEQTnYlEy6kG STOIVvreGQGiPJ0 2BWhLxIQ17yddPP lpI5ItQl9PLSAFl 4aeD8S5BTdNni4S VifFLZcmeXIK2P2 zf29uDb66lMk9eR W5VjIJkvSLFP2G8 wk4oIqjWRphWVU1 8rEPhGT3fJRa3ZD oDnfBcCxqpNCFR0 R98kuBcZ6gO6ppK oHDVWa2b9qhSELK I2owsT2vrzH8BH9 zx9ILsrmwEhkmt2 dvU548ccwkVSznL jpPzS0I4QFK5eLE 7M2yECZ3XqPieHV 2a2qxdbJ2T5OR1C qQ7D9CIav8vlB3x hGnFoXJTQd32S9U etRI8BEpgFA6Ask D8qalTxF4enq7IF QRRiJy2OMUEyI3c PuI1lEVJ1XtdPpL cO3YICNaqGbZd5B t9dtRosCIpExMs7 2Hkzh3nnIQn6AW8 uCGQIfEsLSoncWf FaOfrqhsMcXwJOg pFwbE2YYGaQSDpP G8qqMCgYAbMPkzb asCYfE8FwwUTI2H BUUE4Lv7jBloTQp KSFWX10dSpxuSoz KSQpoNDOk1rSiqF zw89U7qZjs4p0lp AysSlusepIoP7Hl 4tTECi9e7Bbomn8 Yij598wkEK4XWxa YeRfYbWvyqa7vui 4AEIVbBBktfKCvu WWvtTj30FMu218d Wk11arn0OoLJByr TALj3JQKMKZicYC qSsknw5pXs1oReG 3XpkQ3982rRhPV4 VV0maMmzXGHdEsW VmVsgemtWdXVoSw aVDR2f5ZjSiJIVx eTIEGwFP9qx0QWC cAxrfbDF3scU5Pl 7YpeJ0oJaKPKzk1 78WrVWEIGmHBhaW ZNDjq4zImqDqiRA glDMRilKEtUhe8W 7huaHQQwiEVzq7t A7aIRakVKbcj8dB 45liYDtu0GBLtaF 6M9kiHCBRgANQXn C6Ks0cB5VCX2Fvn m3LDOsrAKeTQ0lA th9iVXVriVLZXJR VWKXMpXMIv11Y3x 4i2CgOugUADxr5N TZ5yIYJ9NFfWfGF G7FC9C1yRUZseW5 AWflVYDv0DX7x4e n2mlDPDQktmOqK7 KFS9PhMGjNbS9Hc EbYTMTRAsy3vFh1 wxJJaefgEm7qBrJ 3HPAFXIlgrjYpjo dFszkw3FUb6N1fO 4pW4Vwnxb5gtc8x glvDvyp2ocX3wB1 FDgIAdQ6B2j7m7G 6u78z5fUe8gkKXY rIbmBnAbQLpBX7M Fc01KxU3vXBQaxF qfqgbnQpnhJMfyI 4fAHZhCQ5Zd9ko7 pAUrm1x7l7fXgNS 6w0IzBhGsNRRKpa wwL0yTSPKQSqxi6 YUaHkQM1zQyvfxN clsIzxwDmV9jXD9 6674XBP6dXf8G1d 0vHpIkQEWyExcR8 O60Zjb7y0oTt0XU
-// 6ESg196iVJDQ5XK v1vbcSFP3MSZpyY euziOjKlMee8aIb arpVWARTh6vKfvf 7HNSxk5XIrkyCQP 6RhFJUI1IZMBgtx LfuF0oDC2apvkHl DtjkXUvORFe1pPi xzyRKJbP7xpyuQW YezlVHuMlkewlsT MG32MmTDb99t9tP Rv41YUYFw8kb6n0 PdgX1gl9ii6vZGO lokaNy2b6ppScWF WdVNt4RAChXpR9B kjvvgO3qdrX7pO3 va5SghRHdws1UhR llSkwtDzctG8HvK K6ASLvhcyp7IZp3 EdkCfkQXSfchG3K W31FpRw6RAN4Sel Nc2ZqOxPm7H05Wh wWnW3wmpFx0X8ZD 1. END KEYBASE SALTPACK ENCRYPTED MESSAGE.
+$.ajax("/advent-of-code/assets/boarding-passes.json")
+    .done(function(data, status, jqXhr) {
+        let highestSeatId = 0;
+        let allSeatsArr = [];
+        let totalSeats = 0;                 //  FBFBBFFRLR
+                                            //  0101100 101
+        data.forEach(function(pass, index, fullArr) {
+            totalSeats++;
+            // Row represented 0-127
+            // For example, consider just the first seven characters of FBFBBFFRLR:
+            // First 7 digits are binary (F=0, B=1), last three are binary for column (R=1, L=0)
+            let row = pass.ticket.substr(0,7);
+            let column = pass.ticket.substr(7);
+            row = row.replace(/F/g,'0');
+            row = row.replace(/B/g,'1');
+            row = parseInt(row,2);
+
+            column = column.replace(/R/g,'1');
+            column = column.replace(/L/g,'0');
+            column = parseInt(column,2);
+            // console.log(index + ": " + row + " | " + column);
+
+            let seatId = (row * 8) + column;
+            allSeatsArr.push(seatId);
+            // console.log("Row: " + row + ", Col: " + column + ", ID: " + seatId);
+            highestSeatId = seatId > highestSeatId ? seatId : highestSeatId;
+        });
+        // Processed all the boarding passes - print conclusions here
+        allSeatsArr.sort(function(a,b){return a-b;});
+        allSeatsArr.forEach(function(seat) {
+            console.log(seat);
+        });
+        let notInList = [];
+        for (let i = 1; i < 930; i++) {
+            let foundIt = false;
+            if ( allSeatsArr.includes(i-1) && allSeatsArr.includes(i+1) && !allSeatsArr.includes(i)) {
+                foundIt = true;
+                console.log("My seat is id: " + i);
+            }
+        }
+        console.log("Seats not taken: " + notInList);
+    })
+    .fail(function (jqXhr, status, error) {
+        console.log("There was an error: ");
+        console.error(error);
+    })
+    .always(function () {
+        console.log("Finished processing boarding passes");
+    });
